@@ -1,0 +1,91 @@
+/* fonts.css */
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src:
+        url('../fonts/OpenSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/OpenSans-LightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src:
+        url('../fonts/OpenSans-Light.woff2') format('woff2'),
+        url('../fonts/OpenSans-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src:
+        url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/OpenSans-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:
+        url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+}
+
+/* Icon Font */
+
+@font-face {
+    font-family: 'icon-font';
+    font-style: normal;
+    font-weight: normal;
+    font-display: block;
+    src:
+        url('../fonts/icon-font.ttf?khk3r4') format('truetype'),
+        url('../fonts/icon-font.woff?khk3r4') format('woff'),
+        url('../fonts/icon-font.svg?khk3r4#icon-font') format('svg');
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+    font-family: 'icon-font' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook::before {
+    content: "\e900";
+}
+.icon-twitter::before {
+    content: "\e901";
+}
+.icon-dribbble::before {
+    content: "\e902";
+}
+.icon-google-plus::before {
+    content: "\e903";
+}

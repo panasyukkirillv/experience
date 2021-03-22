@@ -1,0 +1,120 @@
+/* fonts.css */
+
+/* Fonts */
+
+/* Montserrat Regular */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+/* Montserrat Medium */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src:
+        url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+}
+
+/* Montserrat SemiBold */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src:
+        url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+}
+
+/* Montserrat Bold */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src:
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+}
+
+/* Icon Font */
+
+@font-face {
+    font-family: 'Icon-Font';
+    src:
+      url('../fonts/Icon-Font.ttf?seh86j') format('truetype'),
+      url('../fonts/Icon-Font.woff?seh86j') format('woff'),
+      url('../fonts/Icon-Font.svg?seh86j#Icon-Font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"]::before, [class*=" icon-"]::before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Icon-Font' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-search::before {
+    content: "\e900";
+  }
+
+  .icon-l-arrow::before {
+    content: "\e901";
+  }
+
+  .icon-r-arrow::before {
+    content: "\e902";
+  }
+
+  .icon-phone::before {
+    content: "\e903";
+  }
+
+  .icon-map::before {
+    content: "\e904";
+  }
+
+  .icon-shower::before {
+    content: "\e905";
+  }
+
+  .icon-bed::before {
+    content: "\e906";
+  }
+
+  .icon-facebook::before {
+    content: "\e907";
+  }
+
+  .icon-twitter::before {
+    content: "\e908";
+  }
+
+  .icon-dribbble::before {
+    content: "\e909";
+  }
+  
