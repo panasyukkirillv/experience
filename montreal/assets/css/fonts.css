@@ -1,0 +1,13 @@
+/* fonts.css */
+
+/* Abel Regular */
+
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+        url('../fonts/Abel-Regular.woff2') format('woff2'),
+        url('../fonts/Abel-Regular.woff') format('woff');
+}
