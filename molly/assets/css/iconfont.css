@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'IconFont';
+  src:
+    url('../fonts/IconFont.ttf?gcffwu') format('truetype'),
+    url('../fonts/IconFont.woff?gcffwu') format('woff'),
+    url('../fonts/IconFont.svg?gcffwu#IconFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="if-"]::before, [class*=" if-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'IconFont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.if-plus::before {
+  content: "\e905";
+}
+
+.if-facebook::before {
+  content: "\e900";
+}
+.if-twitter::before {
+  content: "\e901";
+}
+.if-google-plus::before {
+  content: "\e902";
+}
+.if-dribbble::before {
+  content: "\e903";
+}
+.if-skype::before {
+  content: "\e904";
+}

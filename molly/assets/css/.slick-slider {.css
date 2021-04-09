@@ -1,0 +1,13 @@
+.slick-slider {
+    position: relative;
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    line-height: 0;
+}
